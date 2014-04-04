@@ -1,0 +1,8 @@
+.theme-options-tabs {
+	display: none;
+	max-width: 800px;
+}
+
+.theme-options-tabs.current {
+	display: block;
+}
