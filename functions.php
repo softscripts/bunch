@@ -207,5 +207,15 @@ function browser() {
     return array('name'=>$browser,'version'=>$version[2]);
 }
 
+// Add specific CSS class by filter
+add_filter('body_class','my_class_names');
+function my_class_names($classes) {
+	$browser = browser();   //ger browser name and version
+	// add 'class-name' to the $classes array
+	$classes[] = $browser['name'];
+	$classes[] = 'ver_'.$browser['version'];
+	// return the $classes array
+	return $classes;
+}
 
 ?>
