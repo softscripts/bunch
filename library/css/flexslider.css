@@ -9,6 +9,9 @@
  * Contributing author: Tyler Smith (@mbmufffin)
  */
 
+/*
+ * Flex slider css is enqued by default  if you don not want flexlslider you can remove from enqued styles in theme.php 
+*/
 
 /* Browser Resets
 *********************************/
