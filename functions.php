@@ -213,7 +213,7 @@ function my_class_names($classes) {
 	$browser = browser();   //ger browser name and version
 	// add 'class-name' to the $classes array
 	$classes[] = $browser['name'];
-	$classes[] = 'ver_'.$browser['version'];
+	$classes[] = 'v_'.$browser['version'];
 	// return the $classes array
 	return $classes;
 }
