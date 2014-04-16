@@ -56,6 +56,8 @@ require_once( 'library/admin.php' ); // this comes turned off by default
 	- adding support for attachments for different post types
 */
 require_once( 'library/attachments/attachments.php' ); // this comes turned on by default
+
+require_once( 'library/custom-css/simple-custom-css.php' ); // this comes turned on by default
 /*
 8. library/translation/translation.php
 	- adding support for other languages
